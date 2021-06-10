@@ -1,0 +1,244 @@
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.asset2{
+    border:18px solid var(--secondary-color);
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10rem;
+    position: relative;
+    top: -10rem;
+    left:30%;
+    animation: motion 4s linear infinite;
+}
+
+@keyframes motion {
+    0%,100%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(30%);
+    }
+  
+}
+.asset3{
+   width:1.3rem;
+    height:1.3rem;
+   top:90vh;
+   right:1.2rem;
+}
+
+.sourav {
+    font-size:3em;
+    font-weight: bold;
+}
+.intro-1{
+    font-size:0.8em;
+    font-weight: bold;
+}
+.intro-2{
+    font-size:0.8em;
+    font-weight: bold;
+}
+.intro-3{
+    font-size:0.5em;
+    font-weight: bold;
+}
+.homeimg img{
+    height:15rem;
+}
+
+/* ----------------------------------------------aboutme------------------------------------------------------------ */
+.abtmeimg img{
+    width: 190px;
+    height: 251px;
+    left: 22px;
+    top: 111px;
+}
+.bgcolor{
+        height: 313px;
+        width: 184px;
+        top: 144px;
+        left: 60px;
+}
+.effect{
+    width: 190px;
+    height: 251px;
+    left: 80px;
+    top: 162px;
+}
+.effectbox{
+    display:none;
+}
+#abtmebox{
+    width: 202px;
+    height: 377px;
+    top: 381px;
+    left: 71px;
+    font-size: 14px;
+    padding: 6px 3px;
+}
+
+.links{
+    flex-wrap: wrap;
+    width: 190px;
+    height: 100px;
+}
+.downbtn{
+    width: 74px;
+    height: 32px;
+}
+.asset1abt{
+    right: 0.8rem;
+}
+.closelogo{
+    left: 88%;
+}
+.fa-facebook-square:before {
+    top: 7px;
+    left: 9px;
+}
+.fa-instagram:before {
+    top: 7px;
+    left: 8px;
+}
+.fa-linkedin:before {
+    top: 7px;
+    left: 8px;
+}
+.asset2{
+    width:7rem;
+}
+
+/* --------------------------------------skills------------------------------------------------------------------ */
+#skillflex{
+    position:absolute;
+    width:100vw;
+    height:26rem;
+    top: 32vh;
+    left: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* border:3px solid black; */
+}
+.whitebg{
+        display:none;
+}
+
+#skillflex1{
+    width: 80vw;
+    margin: 0.2rem;
+    height: 40vh;
+    padding:0px;
+}
+#skillflex2{
+    width: 80vw;
+    margin: 0.2rem;
+    height: 40vh;
+    padding:0px;
+}
+#skillflex1 h2{
+    font-size: 1rem;
+}
+#skillflex2 h2{
+    font-size: 1rem;
+}
+.effect1{
+    width:10rem;
+}
+.certibody {
+    position:absolute;
+    display: flex;
+    top: 116vh;
+    left:0px;
+    width:100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border:3px solid black; */
+}
+.certibody img{
+    width: 4rem;
+    height: 4rem;
+    margin:0.3rem;
+}
+.certificatehead {
+    position: absolute;
+    left: 27%;
+    top:105vh;
+    font-size:2rem;
+    text-shadow: 1px 1px 1px black;
+    color: var(--secondary-color);
+}
+.skillimg img{
+    display:none;
+}
+.skillhead{
+    top:113px;
+    left:40vw;
+}
+#hamburger{
+    z-index: 3;
+    right:-0.2rem;
+}
+.asset1skill{
+    right:0.8rem;
+}
+.closelogo{
+    left: 86%
+}
+#logo{
+    left:0px;
+}
+
+/* ------------------contact---------------------------------------------------------------- */
+#contacthead{
+    top: 10vh;
+    left: 0rem;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+#contactbody{
+    flex-direction: column;
+    left:0px;
+    top: 27vh;
+    width: 100vw;
+    height: 40vh;
+}
+#formbody{
+    position: relative;
+    display: flex;
+    width:42vw;
+    left:2.2rem;
+    top:65vh;
+    /* border: 2px solid red; */
+    justify-content: center;
+   
+}
+#formbody input{
+    margin:3px 2px;
+    width:37vw;
+    height:2rem;
+}
+.form{
+    position: absolute;
+    left:0px;
+}
+.sub input{
+    width:40vw;
+    margin:3px 2px;
+}
+.sub{
+    flex-direction: column;
+}
+.message input{
+   top:78vh;
+}
+.box{
+    width:88%;
+    margin:2px;
+    border-radius:0.5rem;
+}

@@ -1,0 +1,219 @@
+.section-container{
+    flex-direction: column;
+    height:fit-content;
+}
+
+.asset2{
+    border:20px solid var(--secondary-color);
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9rem;
+    position: relative;
+    top: -9rem;
+    left:30%;
+    animation: motion 4s linear infinite;
+}
+
+@keyframes motion {
+    0%,100%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(40%);
+    }
+  
+}
+
+.asset3{
+    width:1.3rem;
+    height:1.3rem;
+    top:90vh;
+    right:1.2rem;
+ }
+
+#hamburger {
+    z-index: 3;
+    right: 0.8rem;
+}
+
+ /* -------------------------------------abtme----------------------------------------------- */
+ .abtmeimg img{
+    width: 190px;
+    height: 251px;
+    left: 47px;
+    top: 111px;
+}
+.bgcolor{
+        height: 313px;
+        width: 184px;
+        top: 144px;
+        left: 87px;
+}
+.effect{
+    width: 190px;
+    height: 251px;
+    left: 115px;
+    top: 162px;
+}
+.effectbox{
+    display:none;
+}
+#abtmebox{
+    width: 202px;
+    height: 377px;
+    top: 381px;
+    left: 117px;
+    font-size: 14px;
+    padding: 6px 3px;
+}
+
+.links{
+    flex-wrap: wrap;
+    width: 190px;
+    height: 100px;
+}
+.downbtn{
+    width: 74px;
+    height: 32px;
+}
+.asset1abt{
+    right: 0.8rem;
+}
+.fa-facebook-square:before {
+    top: 7px;
+    left: 9px;
+}
+.fa-instagram:before {
+    top: 7px;
+    left: 8px;
+}
+.fa-linkedin:before {
+    top: 7px;
+    left: 8px;
+}
+
+/* --------------------------skills--------------------------------------------------------------------- */
+#skillflex{
+    width:100vw;
+    height: 317px;
+    top: 17vh;
+    left: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* border:3px solid black; */
+}
+.whitebg{
+    /* top: -367px;
+    left: -39px;
+    transform: rotate(-90deg); */
+    display:none;
+}
+
+#skillflex1{
+    width: 310px;
+    margin: 11px;
+    height: 199px;
+    padding:0px;
+}
+#skillflex2{
+    width: 310px;
+    margin: 11px;
+    height: 199px;
+    padding:0px;
+
+}
+.effect1{
+    width:244px;
+}
+.certibody {
+    position:absolute;
+    display: flex;
+    top:100vh;
+    left:0px;
+    width:100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border:3px solid black; */
+}
+.certibody img {
+    margin: 5px;
+}
+.certificatehead {
+    position: absolute;
+    left: 27%;
+    top: 90vh;
+    font-size: 38px;
+    text-shadow: 1px 1px 1px black;
+    color: var(--secondary-color);
+}
+.skillimg img{
+    display:none;
+}
+.skillhead{
+    top:15vh;
+    left:40vw;
+}
+/* #hamburger{
+    z-index: 3;
+    right:2.8rem;
+} */
+.closelogo{
+    left:87%;
+}
+.asset1skill{
+    right:0.8rem;
+}
+#logo{
+    left:0px;
+}
+/* -----------------------------------contact-------------------------------------------------- */
+#contacthead{
+    top: 10vh;
+    left: 0rem;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+#contactbody{
+    flex-direction: column;
+    left:0px;
+    top: 27vh;
+    width: 100vw;
+    height: 40vh;
+}
+#formbody{
+    position: relative;
+    display: flex;
+    width:42vw;
+    left:2.2rem;
+    top:65vh;
+    /* border: 2px solid red; */
+    justify-content: center;
+   
+}
+#formbody input{
+    margin:3px 2px;
+    width:37vw;
+    height:2rem;
+}
+.form{
+    position: absolute;
+    left:0px;
+}
+.sub input{
+    width:40vw;
+    margin:3px 2px;
+}
+.sub{
+    flex-direction: column;
+}
+.message input{
+   top:78vh;
+}
+.box{
+    width:88%;
+    margin:2px;
+    border-radius:0.5rem;
+}

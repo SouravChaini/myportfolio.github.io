@@ -1,0 +1,244 @@
+
+.section-container{
+    flex-direction: column;
+    height:fit-content;
+}
+
+.fas{
+    font-size: 25px;
+    color:var(--tertiary-color);
+}
+#hamburger{
+    width:2.5rem;
+    height:2.5rem;
+}
+#logo{
+    width:2.5rem;
+    height:2.5rem;
+    font-size: 2rem;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+.sourav {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.intro-1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.intro-2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.intro-3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.homeimg img{
+    height:25rem;
+}
+
+.btn{
+    border-radius: 2rem;
+    font-size:1.6rem;
+    font-weight: bold;
+}
+.asset1{
+    height:5.3rem;
+    top: 7rem;
+}
+.asset2{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12rem;
+    top: -12rem;
+    left:30%;
+    animation: motion 4s linear infinite;
+}
+
+@keyframes motion {
+    0%,100%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(60%);
+    }
+  
+}
+.asset3{
+    width:4rem;
+    height:4rem;
+    border:0.6rem solid rgb(126, 78, 214);
+    right:4rem;
+    top:75vh;
+    animation: spin 4s linear infinite;
+}
+
+/* ------------------------------aboutme--------------------------------------------------------- */
+.abtmeimg img{
+    left: 63px;
+    top: 156px;
+}
+
+.bgcolor{
+    top: 183px;
+    left: 119px;
+}
+#aboutme{
+    border: 2px solid black;
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    top:0px;
+    left:0px;
+}
+
+#abtmebox{
+    top: 613px;
+    left: 244px;
+}
+
+.effect{
+    left: 179px;
+    top: 109px;
+}
+.asset1abt{
+    height:5.3rem;
+    top: 7rem;
+}
+
+/* ---------------------------------------skills-------------------------------------------------- */
+#skillflex{
+  flex-direction: column;
+  left:22%;
+  top:8vh;
+  /* border: 2px solid red; */
+  width:37rem;
+  height:35rem;
+}
+.skillhead{
+    top:9vh;
+    font-size:3.5rem;
+}
+.certificatehead{
+    position:absolute;
+    left:41%;
+    top:75vh;
+    font-size: 3.5rem;
+    text-shadow:1px 1px 1px black;
+    color:var(--secondary-color);
+}
+.certibody{
+    flex-wrap: wrap;
+    position: absolute;
+    display: flex;
+    top: 84vh;
+    left: 31%;
+    width: 720px;
+    justify-content: space-around;
+    border:2px solid transparent;
+    width:422px;
+
+}
+
+.certibody img:hover{
+    box-shadow: inset 2px 2px 10px black;
+}
+.skillimg img{
+    top:37vh;
+}
+.asset1skill{
+    height:5.3rem;
+    top: 7rem;
+}
+
+ 
+ /* ------------------contact---------------------------------------------------------------- */
+ #contacthead{
+    top: 10vh;
+    left:0vw;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+#contactbody{
+    flex-direction: column;
+    left: 54px;
+    top: 26vh;
+    width: 90vw;
+    height: 38vh;
+    /* border: 2px solid red; */
+
+}
+#formbody{
+    position: relative;
+    display: flex;
+    width:42vw;
+    left:2.2rem;
+    top:65vh;
+    /* border: 2px solid red; */
+    justify-content: center;
+   
+}
+#formbody input{
+    margin:3px 2px;
+    width:47vw;
+    height:4rem;
+}
+.form{
+    position: absolute;
+    left:0px;
+}
+.sub input{
+    width:40vw;
+    margin:2px 0px;
+}
+input{
+    font-size:2rem;
+}
+.sub{
+    flex-direction: column;
+}
+.message input{
+   height:15rem;
+   width:41%;
+   top:74vh;
+}
+.box{
+    width:80%;
+    margin:0.7rem;
+    border-radius:0.5rem;
+}
+.chead1{
+    font-size: 2.5rem;
+}
+.chead2{
+    font-size: 3rem;
+}
+#hamburgercontact{
+    width:2.3rem;
+    height:2.3rem;
+}
+/* *{
+    margin:0.4rem;
+} */
+
+.closelogo{
+    width:3rem;
+    height:3rem;
+}
+.asset1contact{
+    height:5.3rem;
+    top: 7rem;
+
+}
+.box{
+    height:12rem;
+}
+.lval{
+    font-size: 2.5rem;
+}
+.ldetail{
+    font-size: 2rem;
+}
