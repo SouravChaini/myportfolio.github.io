@@ -1,0 +1,329 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:var(--primary-color);
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primary-color);
+}
+:root{
+    --primary-color:rgb(238, 225, 225);
+    --secondary-color:rgb(242, 133, 151);
+    --tertiary-color:black;
+    
+}
+.darktheme{
+    --primary-color:rgb(53, 50, 50);
+    --secondary-color:pink;
+    --tertiary-color:white; 
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+.containerabt{
+    display:flex;
+    margin:1rem 1rem;
+    justify-content: space-between;
+}
+#logo{
+    display:flex;
+    position: relative;
+    border:3px solid var(--secondary-color);
+    /* left:80px; */
+    width:30px;
+    height:30px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    padding:15px;
+    color:var(--secondary-color);
+    font-weight: bold;
+
+}
+
+#hamburger{
+    display:flex;
+    position: relative;
+    /* border:2px solid transparent; */
+    /* right:4rem; */
+    width:30px;
+    height:30px;
+    padding:0.4em;
+    justify-content: center;
+    align-items:center;
+    cursor:pointer;
+}
+#hamburger:hover{
+    box-shadow:inset 2px 2px 2px black;
+}
+.fas{
+    font-size: 20px;
+    color:var(--tertiary-color);
+}
+/*-------------------------------------- header ends--------------------------------------------- */
+
+/*------------------------------------------ navbar starts----------------------------------- */
+#navbar-container{
+    position:fixed;
+    background-color:var(--primary-color);
+    height:100vh;
+    width:100vw;
+    top:0px;
+    left:0px;
+    z-index:60;
+    visibility: hidden;
+}
+.closelogo{
+    display:flex;
+    position:absolute;
+    left:92%;
+    top:1.2rem;
+    z-index:60;
+    cursor: pointer;
+    width:2rem;
+    height:2rem;
+    border-radius:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.closelogo:hover{
+    box-shadow:inset 2px 2px 5px black; 
+}
+.copyright{
+    position:absolute;
+    z-index: 60;
+    color:var(--tertiary-color);
+    top:55vh;
+    transform: rotate(-90deg);
+    left: -4rem;
+    font-size:0.8rem;
+}
+.navbar{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.navbar ul li{
+    list-style: none;
+    padding:1.5rem 0px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:var(--tertiary-color);
+    font-size: 2.4rem;
+    border-radius: 1.3rem;
+    padding:0.3rem 1rem;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.navbar ul li a:hover{
+    box-shadow:inset 2px 2px 5px black; 
+    color:var(--secondary-color)
+}
+/*------------------------------------------ navbar ends---------------------------------- */
+
+/* ----------------------------------------assets start------------------------------------------- */
+.asset1abt{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:4rem;
+    right:0.8rem;
+    top: 5rem;
+    cursor: pointer; 
+}
+.setting{
+    animation: spin 4s linear infinite;
+
+}
+.asset2{
+    border:25px solid var(--secondary-color);
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    position:relative;
+    top:-200px;
+    left:50%;
+    animation: motion 4s linear infinite;
+}
+
+@keyframes motion {
+    0%,100%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(150px);
+    }
+  
+}
+
+.asset3{
+    position:absolute;
+    width:1.6rem;
+    height:1.6rem;
+    border:0.3rem solid rgb(126, 78, 214);
+    right:4rem;
+    top:75vh;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+
+
+/* ----------------------------aboutme---------------------------------------------------------------------------------- */
+.abtmeimg img{
+    position: relative;
+    width: 356px;
+    height: 474px;
+    left: 187px;
+    top: 104px;
+    z-index: 10;
+}
+.bgcolor{
+    position: absolute;
+    background-color: var(--secondary-color);
+    height: 570px;
+    width: 356px;
+    top: 59px;
+    left: 251px;
+    z-index: 5;
+
+}.effect {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 440px;
+    left: 373px;
+    top:77px;
+    z-index: 3;
+}
+.effect img{
+    padding:4px;
+}
+
+#abtmebox {
+    position: absolute;
+    /* border: 2px solid black; */
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 467px;
+    height: 400px;
+    z-index: 11;
+    top: 136px;
+    left: 490px;
+    color:black;
+    font-size: 20px;
+    padding:4px 9px;
+}
+
+#abtmebox span{
+    color:rgb(253, 106, 52);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links{
+    display:flex;
+    justify-content: space-around;
+    width:457px;
+    height:100px;
+    align-items: center;
+    
+}
+
+.downbtn{
+    border-radius: 10px;
+    width:100px;
+    height:30px;
+    background-color: rgb(232, 109, 64);
+    cursor: pointer;
+}
+.downbtn:hover{
+    box-shadow:inset 2px 2px 2px black;
+    background-color: transparent;
+    color:var(--tertiary-color);
+}
+
+.fa-facebook-square:before {
+        content: "\f082";
+    position: relative;
+    top: 5px;
+    left:6px;
+}
+.fa-facebook-square{
+    color:var(--tertiary-color);
+    cursor: pointer;
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+}
+
+.fa-facebook-square:hover{
+    box-shadow:inset 2px 2px 2px black;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    position: relative;
+    top: 5px;
+    left:6px;
+}
+.fa-instagram{
+    color:var(--tertiary-color);
+    cursor: pointer;
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+}
+.fa-instagram:hover{
+    box-shadow:inset 2px 2px 2px black;
+}
+.fa-linkedin:before {
+    content: "\f08c";
+    position: relative;
+    top: 5px;
+    left:6px;
+
+}
+.fa-linkedin{
+    color:var(--tertiary-color);
+    cursor: pointer;
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+}
+.fa-linkedin:hover{
+    box-shadow:inset 2px 2px 2px black;
+}
+
+
+/* --------------------------------------aboutme ends------------------------------------------------------------------------- */
+
+/* --------------utility--------------------------------------------------------------- */
+.border-shadow{
+    box-shadow: 2px 2px 10px black;
+   }
+   .font-style1{
+       font-family: 'Playfair Display', serif;
+   }
+   .font-style2{
+       font-family: 'ZCOOL KuaiLe', cursive;
+   }
+   .font-style3{
+       font-family: 'Patrick Hand', cursive;
+   }
+   .padding-line{
+       padding:4px 0px;
+   }
